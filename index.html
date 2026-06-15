@@ -13,6 +13,9 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+
     <link rel="stylesheet" href="./assest/css/style.css" />
 </head>
 
@@ -38,7 +41,8 @@
     <section class="hero">
         <div class="hero-grid">
             <div>
-                <span class="badge"><span class="dot"></span> Now live in 25+ African countries</span>
+                <span class="badge" style="font-size: 16px;"><span class="dot"></span> Now live in 25+ African
+                    countries</span>
                 <h1>Move money across <span class="gradient-text">Africa</span> in seconds.</h1>
                 <p class="lede">
                     AfriPay is the borderless wallet built for Africa. Send money home, pay bills,
@@ -64,7 +68,7 @@
                 </div>
             </div>
             <div class="phone-wrap">
-                <div
+                <div class="phone-img"
                     style=" width:100%;height:100%;border-radius:40px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,0.2);">
 
                     <img src="./assest/image/489a3b42-f6f7-4dd8-a837-fea9663d5a7c.jpg" alt="AfriPay App"></img>
@@ -89,26 +93,31 @@
                     <h3>Instant transfers</h3>
                     <p>Send to any bank, wallet, or phone number in seconds — 24/7.</p>
                 </div>
+
                 <div class="card">
                     <div class="icon-pill">🌍</div>
                     <h3>Borderless payments</h3>
                     <p>Pay and get paid in 25+ countries with fair exchange rates.</p>
                 </div>
+                
                 <div class="card">
                     <div class="icon-pill">🛡</div>
                     <h3>Bank-grade security</h3>
                     <p>Biometric login, 2FA, and end-to-end encryption on every transaction.</p>
                 </div>
+
                 <div class="card">
                     <div class="icon-pill">💼</div>
                     <h3>Multi-currency wallet</h3>
                     <p>Hold NGN, KES, GHS, ZAR, USD and more in one secure place.</p>
                 </div>
+
                 <div class="card">
                     <div class="icon-pill">📱</div>
                     <h3>Airtime &amp; bills</h3>
                     <p>Top up airtime, pay utility bills, and subscribe to services in-app.</p>
                 </div>
+
                 <div class="card">
                     <div class="icon-pill">📈</div>
                     <h3>Grow your money</h3>
@@ -163,11 +172,15 @@
             </div>
         </div>
     </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-circle-fill"></i>
+    </a>
     <div class="toast" id="toast" role="status" aria-live="polite">
         <span id="toast-msg">Starting download…</span>
         <span class="progress"><span id="toast-progress"></span></span>
     </div>
-    <script src="./assest/js/main.js" defer></script>
+    <script src="./assest/js/doc.js" defer></script>
     <script src="./assest/js/download.ts"></script>
 
 </body>

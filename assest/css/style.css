@@ -97,6 +97,7 @@ img {
     }
 }
 
+/* .phone-img{} */
 /* BUTTONS */
 .btn {
     display: inline-flex;
@@ -457,4 +458,28 @@ footer {
     width: 0%;
     background: var(--gradient-sunset);
     transition: width .1s linear;
+}
+
+/* ===scrollup==== */
+.scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: -50%;
+    background-color: 0 2px 16px rgba(46, 204, 113, .15);
+    box-shadow: var(--shadow-glow);
+    border-radius: .5rem;
+    padding: 6px;
+    display: inline-grid;
+    font-size: 1.25rem;
+    z-index: var(--z-tooltip);
+    transition: bottom .3s, transform .3s, background-color .3s, color .3s;
+}
+
+.scrollup:hover {
+    transform: translateY(-.5rem);
+}
+
+/* ====show-scroll */
+.show-scroll {
+    bottom: 3rem;
 }
